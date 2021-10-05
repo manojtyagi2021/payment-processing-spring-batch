@@ -1,6 +1,7 @@
 .gradle
 /build/
 !gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-7.2-bin.zip
 
 ### STS ###
 .apt_generated
