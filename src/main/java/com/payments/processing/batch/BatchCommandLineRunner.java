@@ -42,6 +42,8 @@ public class BatchCommandLineRunner implements CommandLineRunner {
         } catch (JobParametersInvalidException e) {
             e.printStackTrace();
         }
+        
+        throw new RuntimeException("Explicitly Thrown!!");
 
     }
 }

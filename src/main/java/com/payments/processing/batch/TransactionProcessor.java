@@ -16,7 +16,7 @@ public class TransactionProcessor implements ItemProcessor<Transaction, Transact
         } else {
             item.setMerchantName("Not Available");
         }
-        System.out.println("Enriched Trasaction Details --> " + item.toString());
+        System.out.println("Enriched Trasaction Details --> " + item.toString());        
         return item;
     }
 }

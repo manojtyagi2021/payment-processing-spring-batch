@@ -57,7 +57,7 @@ public class BatchConfiguration {
     @Bean
     public JobLauncher jobLauncher(JobRepository jobRepo) {
         SimpleJobLauncher simpleJobLauncher = new SimpleJobLauncher();
-        simpleJobLauncher.setJobRepository(jobRepo);
+        simpleJobLauncher.setJobRepository(jobRepo);    
         return simpleJobLauncher;
     }
 
